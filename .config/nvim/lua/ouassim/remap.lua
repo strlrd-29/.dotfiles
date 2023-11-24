@@ -35,3 +35,5 @@ vim.keymap.set("n", "<leader><leader>", '<cmd>so<CR>')
 vim.keymap.set({"n", "v", "i"}, "<C-s>", '<cmd>w<CR>')
 
 vim.keymap.set("i", "jj", "<Esc>")
+
+vim.keymap.set({"i", "n", "v"}, "<C-x>", "<cmd>bd<CR>")
