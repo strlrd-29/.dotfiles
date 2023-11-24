@@ -133,3 +133,8 @@ export PATH="/home/ouassim/.local/bin:$PATH"
 
 # Dotfiles bare git repo https://www.saintsjd.com/2011/01/what-is-a-bare-git-repository/
 alias config='/usr/bin/git --git-dir=/home/ouassim/.cfg/ --work-tree=/home/ouassim'
+
+# Pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
