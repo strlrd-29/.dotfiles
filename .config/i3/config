@@ -61,7 +61,7 @@ bindsym $mod+d exec rofi -show run -bw 4
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec alacritty 
+bindsym $mod+Return exec alacritty
 
 # Open browser
 bindsym $mod+b exec --no-startup-id thorium-browser
