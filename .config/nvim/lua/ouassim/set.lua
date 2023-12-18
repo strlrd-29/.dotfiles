@@ -21,6 +21,7 @@ vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
+vim.o.background = "dark"
 
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
@@ -28,8 +29,8 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
-vim.cmd.colorscheme("catppuccin")
-vim.api.nvim_set_hl(0, "Normal", {bg = "none"})
-vim.api.nvim_set_hl(0, "NormalFloat", {bg = "none"})
+vim.cmd.colorscheme("tokyobones")
+vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 
 vim.cmd [[autocmd BufWritePre <buffer> lua vim.lsp.buf.format()]]

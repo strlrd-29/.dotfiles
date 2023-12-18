@@ -1,5 +1,4 @@
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
-
 window:
   opacity: 0.8
   padding:
@@ -8,11 +7,11 @@ window:
 
 font:
   normal:
-    family: "Fira Code"
+    family: "Geist Mono"
   bold:
-    family: "Fira Code"
+    family: "Geist Mono"
   italic:
-    family: "Fira Code"
+    family: "Geist Mono"
   size: 8.0
 
   # Offset is the extra space around each character. `offset.y` can be thought of

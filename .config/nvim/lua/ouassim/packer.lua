@@ -14,7 +14,7 @@ return require('packer').startup(function(use)
   }
 
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
-  
+
   use 'mbbill/undotree'
 
   use 'tpope/vim-fugitive'
@@ -40,5 +40,10 @@ use 'catppuccin/nvim'
 
 use('jose-elias-alvarez/null-ls.nvim')
 use('MunifTanjim/prettier.nvim')
+
+use {
+    "mcchrish/zenbones.nvim",
+    requires = "rktjmp/lush.nvim"
+}
 
 end)
