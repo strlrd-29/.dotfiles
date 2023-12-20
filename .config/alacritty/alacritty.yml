@@ -7,11 +7,11 @@ window:
 
 font:
   normal:
-    family: "Geist Mono"
+    family: "Fira Code"
   bold:
-    family: "Geist Mono"
+    family: "Fira Code"
   italic:
-    family: "Geist Mono"
+    family: "Fira Code"
   size: 8.0
 
   # Offset is the extra space around each character. `offset.y` can be thought of
