@@ -36,7 +36,7 @@ return require('packer').startup(function(use)
   }
 }
 
-use 'catppuccin/nvim'
+use "craftzdog/solarized-osaka.nvim"
 
 use('jose-elias-alvarez/null-ls.nvim')
 use('MunifTanjim/prettier.nvim')
