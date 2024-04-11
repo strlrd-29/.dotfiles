@@ -136,8 +136,17 @@ alias config='/usr/bin/git --git-dir=/home/ouassim/.cfg/ --work-tree=/home/ouass
 
 # Create Neovim alias 
 alias nv='nvim .'
+alias vim='nvim'
 
 # Pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+# pnpm
+export PNPM_HOME="/home/ouassim/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
