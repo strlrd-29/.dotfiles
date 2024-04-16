@@ -36,15 +36,31 @@ return {
   },
 
   {
-    "dinhhuy258/git.nvim",
-    event = "BufReadPre",
-    opts = {
-      keymaps = {
-        -- Open blame window
-        blame = "<Leader>gb",
-        -- Open file/folder in git repository
-        browse = "<Leader>go",
-      },
+    "kdheepak/lazygit.nvim",
+    cmd = {
+      "LazyGit",
+      "LazyGitConfig",
+      "LazyGitCurrentFile",
+      "LazyGitFilter",
+      "LazyGitFilterCurrentFile",
+    },
+    -- optional for floating window border decoration
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+    },
+    -- setting the keybinding for LazyGit with 'keys' is recommended in
+    -- order to load the plugin when the command is run for the first time
+    keys = {
+      { "<leader>lg", "<cmd>LazyGit<cr>", desc = "LazyGit" },
+    },
+  },
+
+  {
+    "crnvl96/lazydocker.nvim",
+    event = "VeryLazy",
+    opts = {}, -- automatically calls `require("lazydocker").setup()`
+    dependencies = {
+      "MunifTanjim/nui.nvim",
     },
   },
 

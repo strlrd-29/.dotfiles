@@ -49,3 +49,9 @@ keymap.set("n", "<leader>dd", "<cmd> lua vim.diagnostic.open_float() <CR>")
 keymap.set("n", "<C-j>", function()
   vim.diagnostic.goto_next()
 end, opts)
+
+-- LazyDocker
+keymap.set("n", "<leader>k", "<cmd>LazyDocker<CR>", { desc = "Toggle LazyDocker", noremap = true, silent = true })
+
+-- Toggle word wrap
+keymap.set("n", "<C-z>", "<cmd>set wrap!<CR>")
