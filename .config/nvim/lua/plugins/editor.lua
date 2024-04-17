@@ -226,4 +226,8 @@ return {
       require("telescope").load_extension("file_browser")
     end,
   },
+  {
+    "glow.nvim",
+    dev = true,
+  },
 }
