@@ -8,7 +8,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="minimal" # set by `omz`
+ZSH_THEME="pmcgee" # set by `omz`
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -137,6 +137,9 @@ alias config='/usr/bin/git --git-dir=/home/ouassim/.cfg/ --work-tree=/home/ouass
 # Create Neovim alias 
 alias nv='nvim .'
 alias vim='nvim'
+
+# load tmux sessions
+alias hyko="tmuxifier load-session hyko"
 
 # Pyenv
 export PYENV_ROOT="$HOME/.pyenv"
@@ -362,3 +365,7 @@ _gh()
 if [ "$funcstack[1]" = "_gh" ]; then
     _gh
 fi
+
+# Tmuxifier
+export PATH="$HOME/.tmuxifier/bin:$PATH"
+eval "$(tmuxifier init -)"

@@ -61,7 +61,7 @@ bindsym $mod+d exec rofi -show run -bw 4
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec warp-terminal
+bindsym $mod+Return exec alacritty
 
 # Open browser
 bindsym $mod+b exec --no-startup-id thorium-browser
@@ -251,3 +251,6 @@ bindsym $mod+t [class="Alacritty"] scratchpad show
 
 # Shortcut for placing the window in center and in a fixed position
 bindsym $mod+y floating enable, resize set 1480 920, move position center
+
+# Set the default layot to be tabbed
+workspace_layout tabbed
