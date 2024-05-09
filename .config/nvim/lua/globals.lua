@@ -1,10 +1,3 @@
----@param v any
----@return any
-P = function(v)
-  print(vim.inspect(v))
-  return v
-end
-
 ---@param ... string
 ---@return any
 RELOAD = function(...)

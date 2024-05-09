@@ -46,7 +46,7 @@ keymap.set("i", "jj", "<Esc>")
 keymap.set("n", "<leader>dd", "<cmd> lua vim.diagnostic.open_float() <CR>")
 
 -- Diagnostics
-keymap.set("n", "<C-j>", function()
+keymap.set("n", "<leader>dj", function()
   vim.diagnostic.goto_next()
 end, opts)
 

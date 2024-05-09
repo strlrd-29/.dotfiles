@@ -1,5 +1,5 @@
 return {
   {
-    "Yazeed1s/minimal.nvim",
+    "rebelot/kanagawa.nvim",
   },
 }
