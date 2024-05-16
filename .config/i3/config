@@ -61,7 +61,7 @@ bindsym $mod+d exec rofi -show run -bw 4
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec --no-startup-id alacritty
 
 # Open browser
 bindsym $mod+b exec --no-startup-id thorium-browser
@@ -242,6 +242,7 @@ bindsym $mod+minus scratchpad show
 for_window [class="thunderbird"] move scratchpad
 for_window [class="Slack"] move scratchpad
 for_window [class="Logseq"] move scratchpad
+
 
 # Special shortcuts to bring from scratchpad
 bindsym $mod+m [class="thunderbird"] scratchpad show
