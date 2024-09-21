@@ -140,6 +140,7 @@ alias vim='nvim'
 
 # load tmux sessions
 alias hyko="tmuxifier load-session hyko"
+alias yourscrib="tmuxifier load-session yourscrib"
 
 # Pyenv
 export PYENV_ROOT="$HOME/.pyenv"
