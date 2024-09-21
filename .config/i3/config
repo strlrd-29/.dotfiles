@@ -54,7 +54,7 @@ bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 10%-
 floating_modifier $mod
 
 # start rofi
-bindsym $mod+d exec rofi -show run -bw 4
+bindsym $mod+d exec rofi -show drun -bw 4
 
 # move tiling windows via drag & drop by left-clicking into the title bar,
 # or left-clicking anywhere into the window while holding the floating modifier.
@@ -255,3 +255,6 @@ bindsym $mod+y floating enable, resize set 1480 920, move position center
 
 # Set the default layot to be tabbed
 workspace_layout tabbed
+
+# Lock screen
+bindsym $mod+x exec --no-startup-id i3lock -u -i /home/ouassim/wallpapers/ume52wuknemd1.jpeg --fill -k --time-color eaeaea --date-color eaeaea
