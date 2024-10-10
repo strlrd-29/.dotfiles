@@ -35,8 +35,8 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # Start thunderbird and slack and logseq
-exec_always --no-startup-id thunderbird
-exec_always --no-startup-id slack
+# exec_always --no-startup-id thunderbird
+# exec_always --no-startup-id slack
 exec_always --no-startup-id logseq
 
 # Use pactl to adjust volume in PulseAudio.
@@ -239,14 +239,14 @@ bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+minus scratchpad show
 
 # Move mail and slack to scratchpad
-for_window [class="thunderbird"] move scratchpad
-for_window [class="Slack"] move scratchpad
+# for_window [class="thunderbird"] move scratchpad
+# for_window [class="Slack"] move scratchpad
 for_window [class="Logseq"] move scratchpad
 
 
 # Special shortcuts to bring from scratchpad
-bindsym $mod+m [class="thunderbird"] scratchpad show
-bindsym $mod+Shift+m [class="Slack"] scratchpad show
+# bindsym $mod+m [class="thunderbird"] scratchpad show
+# bindsym $mod+Shift+m [class="Slack"] scratchpad show
 bindsym $mod+n [class="Logseq"] scratchpad show
 bindsym $mod+t [class="Alacritty"] scratchpad show
 
