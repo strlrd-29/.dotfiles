@@ -1,0 +1,37 @@
+[init]
+	defaultBranch = main
+[user]
+	email = ouassimghribi@gmail.com
+	name = Ouassim Abdelmalek Ghribi
+[core]
+	editor = nvim
+	ignorecase = false
+[push]
+  default = simple
+[color]
+  status = auto
+  diff = auto
+  branch = auto
+  interactive = auto
+  grep = auto
+  ui = auto
+[alias]
+  d = diff
+  co = checkout
+  c = commit
+  ca = commit -a
+  ps = "!git push origin $(git rev-parse --abbrev-ref HEAD)"
+  pl = "!git pull origin $(git rev-parse --abbrev-ref HEAD)"
+  st = status
+  br = branch
+  ba = branch -a
+  bm = branch --merged
+  bn = branch --no-merged
+  hist = log --pretty=format:\"%Cgreen%h %Creset%cd %Cblue[%cn] %Creset%s%C(yellow)%d%C(reset)\" --graph --date=relative --decorate --all
+  llog = log --graph --name-status --pretty=format:\"%C(red)%h %C(reset)(%cd) %C(green)%an %Creset%s %C(yellow)%d%Creset\" --date=relative
+  # edit conflicted file on merge
+  edit-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; vim `f`"
+  # add conflicted file on merge
+  add-unmerged = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; git add `f`"
+[github]
+	user = strlrd-29
