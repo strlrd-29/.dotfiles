@@ -1,0 +1,7 @@
+configuration {
+	font: "JetBrains Mono 16";
+  timeout {
+      action: "kb-cancel";
+      delay:  0;
+  }
+}
