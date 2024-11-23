@@ -27,6 +27,14 @@ These are the dotfiles of my current arch-linux setup.
 > I use [GNU Stow](https://www.gnu.org/software/stow/) to manage my dotfiles
 > I will be writing a blog post in the future on how to use it.
 
+## Wallpapers
+
+- I maintain this
+  [drive](https://drive.google.com/drive/folders/132dHpir75mrxXgc2TcMHT4aQYq63Mpti?usp=drive_link)
+  where I collect various wallpapers from around the web.
+- [r/unixporn](https://www.reddit.com/r/unixporn/)
+- [r/wallpapers](https://www.reddit.com/r/wallpapers)
+
 ## About me
 
 - [Follow me on 𝕏](https://twitter.com/strlrd29)
