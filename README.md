@@ -30,7 +30,7 @@ These are the dotfiles of my current arch-linux setup.
 ## Wallpapers
 
 - I maintain this
-  [drive](https://drive.google.com/drive/folders/132dHpir75mrxXgc2TcMHT4aQYq63Mpti?usp=drive_link)
+  [drive](https://drive.google.com/drive/folders/132dHpir75mrxXgc2TcMHT4aQYq63Mpti?usp=sharing)
   where I collect various wallpapers from around the web.
 - [r/unixporn](https://www.reddit.com/r/unixporn/)
 - [r/wallpapers](https://www.reddit.com/r/wallpapers)
