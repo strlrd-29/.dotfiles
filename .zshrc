@@ -21,3 +21,15 @@ export PATH=$HOME/.local/bin:$PATH
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# wallpapers
+wal-fill() {
+  wal -n -i "$@"
+  feh --bg-fill "$(< "${HOME}/.cache/wal/wal")"
+}
+
+wal-random() {
+  images=(/home/ouassim/wallpapers/*)
+  wal -n -i ${images[$(( $RANDOM % ${#images[@]}))]}
+  feh --bg-fill "$(< "${HOME}/.cache/wal/wal")"
+}
