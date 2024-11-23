@@ -1,8 +1,8 @@
 /* Dark theme. */
-@import "~/.cache/wal/colors-rofi-dark"
+/* @import "~/.cache/wal/colors-rofi-dark" */
 
 /* Light theme. */
-/* @import "~/.cache/wal/colors-rofi-light" */
+@import "~/.cache/wal/colors-rofi-light"
 
 configuration {
 	font: "JetBrains Mono 16";
