@@ -31,5 +31,5 @@ save_to_clipboard = true
 opacity = 0.8
 
 [window.padding]
-x = 4
-y = 4
+x = 0
+y = 0
