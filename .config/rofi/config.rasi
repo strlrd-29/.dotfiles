@@ -1,3 +1,9 @@
+/* Dark theme. */
+@import "~/.cache/wal/colors-rofi-dark"
+
+/* Light theme. */
+/* @import "~/.cache/wal/colors-rofi-light" */
+
 configuration {
 	font: "JetBrains Mono 16";
   timeout {
