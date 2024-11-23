@@ -184,7 +184,7 @@ default_border pixel 0
 default_floating_border pixel 0
 
 # Start polybar
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id "wal -R && $HOME/.config/polybar/launch.sh"
 
 # Set wallpaper
 exec --no-startup-id $HOME/.fehbg
@@ -219,3 +219,6 @@ workspace_layout tabbed
 
 # Lock screen
 bindsym $mod+x exec --no-startup-id i3lock -u -i /home/ouassim/wallpapers/great_wave_of_kanagawa_gruvbox.png --fill -k --time-color eaeaea --date-color eaeaea
+
+# Start picom
+exec --no-startup-id picom --config ~/.config/picom/picom.conf -b
