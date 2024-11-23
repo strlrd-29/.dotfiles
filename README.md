@@ -11,16 +11,21 @@ These are the dotfiles of my current arch-linux setup.
 
 - Settings for:
   - [neovim](/.config/nvim) (text editor)
-  - zsh (shell)
-  - i3 (window manager)
-  - polybar (status bar)
-  - alacritty (terminal)
-  - rofi (launcher)
-  - ranger (file manager)
-  - flameshot (screenshots)
-  - lazygit (tui for git)
-  - picom (compositor)
-  - pywal (color palettes generator)
+  - [zsh](/.zshrc) (shell)
+  - [i3](.config/i3) (window manager)
+  - [polybar](.config/polybar) (status bar)
+  - [alacritty](.config/alacritty) (terminal)
+  - [rofi](.config/rofi) (launcher)
+  - [ranger](.config/ranger) (file manager)
+  - [flameshot](.config/flameshot) (screenshots)
+  - [lazygit](.config/lazygit) (tui for git)
+  - [picom](.config/picom) (compositor)
+  - [tmux](.config/tmux) (terminal multiplexer)
+  - [pywal](.config/wal) (color palettes generator)
+  - [git](.gitconfig) (git aliases, preferences...)
+
+> I use [GNU Stow](https://www.gnu.org/software/stow/) to manage my dotfiles
+> I will be writing a blog post in the future on how to use it.
 
 ## About me
 
