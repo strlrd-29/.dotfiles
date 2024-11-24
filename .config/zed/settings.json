@@ -12,7 +12,7 @@
   "buffer_font_size": 22,
   "theme": {
     "mode": "system",
-    "light": "Gruvbox Dark Hard",
+    "light": "Andromeda",
     "dark": "One Dark"
   },
   "cursor_blink": false,
