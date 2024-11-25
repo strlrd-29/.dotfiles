@@ -10,19 +10,19 @@ Use at your own risk!
 These are the dotfiles of my current arch-linux setup.
 
 - Settings for:
-  - [neovim](/.config/nvim) (text editor)
-  - [zsh](/.zshrc) (shell)
-  - [i3](.config/i3) (window manager)
-  - [polybar](.config/polybar) (status bar)
-  - [alacritty](.config/alacritty) (terminal)
-  - [rofi](.config/rofi) (launcher)
-  - [ranger](.config/ranger) (file manager)
-  - [flameshot](.config/flameshot) (screenshots)
-  - [lazygit](.config/lazygit) (tui for git)
-  - [picom](.config/picom) (compositor)
-  - [tmux](.config/tmux) (terminal multiplexer)
-  - [pywal](.config/wal) (color palettes generator)
-  - [git](.gitconfig) (git aliases, preferences...)
+  - [neovim](/nvim/.config/nvim) (text editor)
+  - [zsh](./zsh/.zshrc) (shell)
+  - [i3](./i3/.config/i3) (window manager)
+  - [polybar](./polybar/.config/polybar) (status bar)
+  - [alacritty](./alacritty.config/alacritty) (terminal)
+  - [rofi](./rofi.config/rofi) (launcher)
+  - [ranger](./ranger.config/ranger) (file manager)
+  - [flameshot](./flameshot.config/flameshot) (screenshots)
+  - [lazygit](./lazygit.config/lazygit) (tui for git)
+  - [picom](./picom.config/picom) (compositor)
+  - [tmux](./tmux.config/tmux) (terminal multiplexer)
+  - [pywal](./wal.config/wal) (color palettes generator)
+  - [git](./git.gitconfig) (git aliases, preferences...)
 
 > I use [GNU Stow](https://www.gnu.org/software/stow/) to manage my dotfiles
 > I will be writing a blog post in the future on how to use it.
