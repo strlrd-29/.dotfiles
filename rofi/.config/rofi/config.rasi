@@ -5,7 +5,8 @@
 @import "~/.cache/wal/colors-rofi-light"
 
 configuration {
-	font: "JetBrains Mono 16";
+  font: "JetBrains Mono 16";
+  terminal: "alacritty";
   timeout {
       action: "kb-cancel";
       delay:  0;
