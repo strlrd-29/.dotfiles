@@ -6,6 +6,9 @@ set $mod Mod4
 # is used in the bar {} block below.
 font pango:JetBrains Mono,monospace 8
 
+# Inner gaps for all windows: space between two adjacent windows (or split containers).
+gaps inner 12px 
+
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
