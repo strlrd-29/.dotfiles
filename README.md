@@ -25,7 +25,7 @@ These are the dotfiles of my current arch-linux setup.
   - [git](./git.gitconfig) (git aliases, preferences...)
 
 > I use [GNU Stow](https://www.gnu.org/software/stow/) to manage my dotfiles
-> I will be writing a blog post in the future on how to use it.
+> I wrote this [blog post](https://ouassim.tech/notes/how-i-use-gnu-stow-to-manage-my-dotfiles/) where I go through how I use GNU Stow, check it out!
 
 ## Wallpapers
 
