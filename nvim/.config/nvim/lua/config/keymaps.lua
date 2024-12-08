@@ -47,3 +47,7 @@ end, opts)
 
 -- Toggle word wrap
 keymap.set("n", "<C-z>", "<cmd>set wrap!<CR>")
+
+-- Move selected lines with shift+j or shift+k
+keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+keymap.set("v", "K", ":m '<-2<CR>gv=gv")
