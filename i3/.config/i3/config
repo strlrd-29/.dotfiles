@@ -210,6 +210,7 @@ for_window [class="obsidian"] move scratchpad
 
 # Special shortcuts to bring from scratchpad
 bindsym $mod+n [class="obsidian"] scratchpad show
+bindsym $mod+t [class="Alacritty"] scratchpad show
 
 # Show the first scratchpad window
 bindsym $mod+minus scratchpad show
