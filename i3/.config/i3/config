@@ -7,7 +7,7 @@ set $mod Mod4
 font pango:JetBrains Mono,monospace 8
 
 # Inner gaps for all windows: space between two adjacent windows (or split containers).
-gaps inner 12px 
+# gaps inner 12px 
 
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
@@ -49,7 +49,8 @@ bindsym $mod+d exec rofi -show drun -bw 4
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id alacritty
+# bindsym $mod+Return exec --no-startup-id alacritty
+bindsym $mod+Return exec --no-startup-id ghostty
 
 # Open browser
 bindsym $mod+b exec --no-startup-id thorium-browser
@@ -200,7 +201,7 @@ exec --no-startup-id greenclip daemon>/dev/null
 bindsym $mod+c exec --no-startup-id rofi -modi "clipboard:greenclip print" -show clipboard
 
 # Launch Ranger
-bindsym $mod+Shift+d exec alacritty -e ranger
+bindsym $mod+Shift+d exec ghostty -e ranger
 
 # Make the currently focused window a scratchpad
 bindsym $mod+Shift+minus move scratchpad
@@ -210,7 +211,8 @@ for_window [class="obsidian"] move scratchpad
 
 # Special shortcuts to bring from scratchpad
 bindsym $mod+n [class="obsidian"] scratchpad show
-bindsym $mod+t [class="Alacritty"] scratchpad show
+# bindsym $mod+t [class="Alacritty"] scratchpad show
+bindsym $mod+t [class="ghostty"] scratchpad show
 
 # Show the first scratchpad window
 bindsym $mod+minus scratchpad show
