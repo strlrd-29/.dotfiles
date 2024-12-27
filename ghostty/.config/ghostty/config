@@ -1,0 +1,10 @@
+theme=Kanagawa Dragon
+font-size=22
+window-decoration=false
+
+confirm-close-surface = false
+clipboard-paste-protection = false
+unfocused-split-opacity = 1.0
+copy-on-select = clipboard
+
+background-opacity=0.8
