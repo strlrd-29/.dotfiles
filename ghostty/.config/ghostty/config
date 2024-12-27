@@ -8,3 +8,5 @@ unfocused-split-opacity = 1.0
 copy-on-select = clipboard
 
 background-opacity=0.8
+
+term = kitty
