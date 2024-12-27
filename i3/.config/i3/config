@@ -201,7 +201,7 @@ exec --no-startup-id greenclip daemon>/dev/null
 bindsym $mod+c exec --no-startup-id rofi -modi "clipboard:greenclip print" -show clipboard
 
 # Launch Ranger
-bindsym $mod+Shift+d exec ghostty -e ranger
+bindsym $mod+Shift+d exec alacritty -e ranger
 
 # Make the currently focused window a scratchpad
 bindsym $mod+Shift+minus move scratchpad
