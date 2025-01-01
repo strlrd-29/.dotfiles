@@ -1,5 +1,8 @@
 export ZSH="$HOME/.oh-my-zsh"
 
+# custom scripts
+export PATH="$PATH":"$HOME/.local/scripts/"
+
 ZSH_THEME="pmcgee"
 
 plugins=(
@@ -35,7 +38,10 @@ wal-random() {
   feh --bg-fill "$(< "${HOME}/.cache/wal/wal")"
 }
 
+bindkey -s ^f "tmux-sessionizer\n"
+
 # pyenv
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init - bash)"
+
