@@ -220,9 +220,6 @@ bindsym $mod+minus scratchpad show
 # Shortcut for placing the window in center and in a fixed position
 bindsym $mod+y floating enable, resize set 1600 1280, move position center
 
-# Set the default layot to be tabbed
-workspace_layout tabbed
-
 # Lock screen
 bindsym $mod+x exec --no-startup-id i3lock -u -i /home/ouassim/wallpapers/ugly-dude-dark.png --fill -k --time-color eaeaea --date-color eaeaea
 
