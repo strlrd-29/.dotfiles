@@ -209,10 +209,12 @@ bindsym $mod+Shift+minus move scratchpad
 # Move obsidian to scratchpad
 for_window [class="obsidian"] move scratchpad
 for_window [class="slack"] move scratchpad
+for_window [class="discord"] move scratchpad
 
 # Special shortcuts to bring from scratchpad
 bindsym $mod+n [class="obsidian"] scratchpad show
 bindsym $mod+m [class="Slack"] scratchpad show
+bindsym $mod+p [class="discord"] scratchpad show
 bindsym $mod+t [class="ghostty"] scratchpad show
 
 # Show the first scratchpad window
