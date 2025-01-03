@@ -208,7 +208,7 @@ bindsym $mod+Shift+minus move scratchpad
 
 # Move obsidian to scratchpad
 for_window [class="obsidian"] move scratchpad
-for_window [class="slack"] move scratchpad
+for_window [class="Slack"] move scratchpad
 for_window [class="discord"] move scratchpad
 
 # Special shortcuts to bring from scratchpad
