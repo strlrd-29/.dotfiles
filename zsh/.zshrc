@@ -40,11 +40,5 @@ wal-random() {
 
 bindkey -s ^f "tmux-sessionizer\n"
 
-# pyenv
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init - bash)"
-
-# Poetry
-fpath+=~/.zfunc
-autoload -Uz compinit && compinit
+# uv completions
+eval "$(uv generate-shell-completion zsh)"
