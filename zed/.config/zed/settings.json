@@ -1,4 +1,14 @@
 {
+  "assistant": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o"
+    },
+    "version": "2"
+  },
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
   "vim_mode": true,
   "ui_font_size": 16,
   "buffer_font_size": 16,
@@ -9,15 +19,18 @@
   },
   "cursor_blink": false,
   "relative_line_numbers": true,
-  "scrollbar": {
-    "show": "never"
-  },
   "vertical_scroll_margin": 0,
-  "tab_bar": {
-    "show": false
-  },
   "toolbar": {
-    "breadcrumbs": true,
+    "breadcrumbs": false,
     "quick_actions": false
+  },
+  "languages": {
+    "TSX": {
+      "formatter": "prettier",
+      "code_actions_on_format": {
+        "source.fixAll.eslint": true
+      },
+      "format_on_save": "on"
+    }
   }
 }
