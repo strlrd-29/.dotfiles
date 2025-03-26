@@ -46,8 +46,8 @@
     "bindings": {
       "ctrl-h": "workspace::ActivatePaneLeft",
       "ctrl-l": "workspace::ActivatePaneRight",
-      "ctrl-k": "workspace::ActivatePaneUp",
-      "ctrl-j": "workspace::ActivatePaneDown"
+      "ctrl-k": "workspace::ActivatePaneUp"
+      // "ctrl-j": "workspace::ActivatePaneDown"
     }
   }
 ]
