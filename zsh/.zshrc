@@ -50,3 +50,12 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+# fnm
+FNM_PATH="/home/ouassim/.local/share/fnm"
+if [ -d "$FNM_PATH" ]; then
+  export PATH="/home/ouassim/.local/share/fnm:$PATH"
+  eval "`fnm env`"
+fi
+
+eval "$(fnm env --use-on-cd --shell zsh)"
